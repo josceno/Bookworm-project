@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "3OvURwlHA/3VA0jrNLwZVqxJERQgENRLV4llk0ljv6Xim8RNFaj1bVKt2ZFWnEcgMYdZBObihafFujBrLeIULA==",
+  "success": true,
+  "projectFilePath": "E:\\projetos de código\\C#\\Bookworm\\Bookworm.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ID629\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.17.0\\microsoft.visualstudio.azure.containers.tools.targets.1.17.0.nupkg.sha512"
+  ],
+  "logs": []
+}
