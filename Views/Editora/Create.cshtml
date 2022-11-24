@@ -1,7 +1,24 @@
-﻿
-@{
-    ViewData["Title"] = "Create";
-}
+﻿@model Editora
 
-<h1>Create</h1>
-
+<form method="post">
+    <div class="border p-3 mt-4">
+        <div class="row pb-2">
+              <h2 class="text-primary">adcionar Editora</h2>
+              <hr/>
+        </div>
+        <div class="mb-3">
+            <label asp-for="IdEditora">codigo</label>
+            <input asp-for="IdEditora" style="width:20%" class="form-control"/>
+        </div>
+        <div class="mb-3">
+            <label asp-for="Nomefantasia">Nome Fantasia</label>
+            <input asp-for="Nomefantasia" class="form-control"/> 
+        </div>
+        <div class="mb-3">
+            <label asp-for="Endereco">endereço</label>
+            <input asp-for="Endereco" class="form-control"/>
+        </div>
+        <button type="submit" class="btn btn-primary">Adcionar</button>
+        <a asp-controller="Editora" asp-action="Index" class="btn btn-secondary"> voltar</a>
+    </div>
+</form>

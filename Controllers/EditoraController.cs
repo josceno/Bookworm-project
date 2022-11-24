@@ -20,8 +20,7 @@ namespace Bookworm.Controllers
         }
         public IActionResult Create()
         {
-            IEnumerable<Editora> objEditoraList = _db.Editora;
-            return View(objEditoraList);
+            return View();
         }
     }
 }
