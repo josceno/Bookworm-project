@@ -16,5 +16,10 @@ namespace Bookworm.Controllers
             IEnumerable<Livro> objLivroList = _db.Livro;
             return View(objLivroList);
         }
+        public IActionResult Create()
+        {
+            IEnumerable<Livro> objLivroList = _db.Livro;
+            return View(objLivroList);
+        }
     }
 }

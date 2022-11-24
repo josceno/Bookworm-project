@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "xM+ixUbNQfzslVk/MdNegfJ46dWldB66i0Wyqp+ZzvA=",
+  "Hash": "A5xH8UzldN8AoZ0pmzlqwEGz7UwoliGWpWcv5npKl00=",
   "Source": "Bookworm",
   "BasePath": "_content/Bookworm",
   "Mode": "Default",
@@ -49,6 +49,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "E:\\projetos de código\\C#\\Bookworm\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\Bookworm.bundle.scp.css"
+    },
+    {
+      "Identity": "E:\\projetos de código\\C#\\Bookworm\\wwwroot\\css\\bootswatch.css",
+      "SourceId": "Bookworm",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\projetos de código\\C#\\Bookworm\\wwwroot\\",
+      "BasePath": "_content/Bookworm",
+      "RelativePath": "css/bootswatch.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\bootswatch.css"
     },
     {
       "Identity": "E:\\projetos de código\\C#\\Bookworm\\wwwroot\\css\\site.css",

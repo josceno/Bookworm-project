@@ -1,0 +1,40 @@
+﻿@model IEnumerable<Editora>
+@{
+    ViewData["Title"] = "Index";
+}
+<div class="container p-3">
+    <div class="row pt-4">
+    <div class="col-6">
+          <h2 class="text-primary">Editoras</h2>
+    </div>     
+      <div class="col-6 text-end">
+        <a asp-controller="Editora" asp-action="Create" class="btn btn-primary">Add Editora</a>
+      </div>
+    </div>
+</div>
+
+<table class="table table-bordered table-striped" style="width:100%">
+    <thead>
+        <tr>
+            <th>
+                Nome fantasia
+            </th>
+            <th>
+               Endereço
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var obj in Model)
+        {
+                <tr>
+                    <td width="50%">
+                    @obj.Nomefantasia
+                    </td>
+                    <td width="50%">
+                    @obj.Endereco
+                    </td>
+                </tr>
+        }
+    </tbody>
+</table>

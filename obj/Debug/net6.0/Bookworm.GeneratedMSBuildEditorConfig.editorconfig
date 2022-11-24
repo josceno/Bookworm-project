@@ -15,6 +15,14 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = E:\projetos de código\C#\Bookworm
 build_property._RazorSourceGeneratorDebug = 
 
+[E:/projetos de código/C\#/Bookworm/Views/Editora/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRWRpdG9yYVxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/projetos de código/C\#/Bookworm/Views/Editora/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRWRpdG9yYVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [E:/projetos de código/C\#/Bookworm/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -23,8 +31,8 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/projetos de código/C\#/Bookworm/Views/LivroController1/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGl2cm9Db250cm9sbGVyMVxJbmRleC5jc2h0bWw=
+[E:/projetos de código/C\#/Bookworm/Views/Livro/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGl2cm9cQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [E:/projetos de código/C\#/Bookworm/Views/Livro/Index.cshtml]
