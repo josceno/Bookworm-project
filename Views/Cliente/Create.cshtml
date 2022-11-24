@@ -1,0 +1,35 @@
+﻿@model Cliente
+
+<form method="post">
+    <div class="border p-3 mt-4">
+        <div class="row pb-2">
+              <h2 class="text-primary">adcionar Cliente</h2>
+              <hr/>
+        </div>
+        <div class="mb-3">
+            <label asp-for="cpf">cpf</label>
+            <input asp-for="cpf" class="form-control"/> 
+        </div>
+        <div class="mb-3">
+            <label asp-for="NomeCliente">Nome</label>
+            <input asp-for="NomeCliente" class="form-control"/>
+        </div>
+        <div class="mb-3">
+            <label asp-for="edereco">edereço</label>
+            <input asp-for="edereco" class="form-control"/>
+        </div>
+            <div class="mb-3">
+            <label asp-for="idade">idade</label>
+            <input asp-for="idade" class="form-control"/>
+        </div>
+            <div class="mb-3">
+                <select asp-for="genero">
+                     <option>Masculino</option>
+                     <option>Feminino</option>
+                     <option>Prefiro não informar</option>
+                </select>
+            </div>
+        <button type="submit" class="btn btn-primary">Adcionar</button>
+        <a asp-controller="Autor" asp-action="Index" class="btn btn-secondary"> voltar</a>
+    </div>
+</form>

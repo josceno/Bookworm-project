@@ -4,19 +4,18 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace Bookworm.Controllers
 {
-    public class AutorController : Controller
+    public class ClienteController : Controller
     {
-
         private readonly ApplicationtDbContext _db;
 
-        public AutorController(ApplicationtDbContext db)
+        public ClienteController(ApplicationtDbContext db)
         {
             _db = db;
         }
         public IActionResult Index()
         {
-            IEnumerable<Autor> objAutorList = _db.Autor;
-            return View(objAutorList);  
+            IEnumerable<Cliente> objClienteList = _db.Cliente;
+            return View(objClienteList);
         }
         public IActionResult Create()
         {
@@ -24,9 +23,9 @@ namespace Bookworm.Controllers
         }
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public IActionResult Create(Autor autor)
+        public IActionResult Create(Cliente cliente)
         {
-            _db.Autor.Add(autor);
+            _db.Cliente.Add(cliente);
             _db.SaveChanges();
             return RedirectToAction("Index");
         }

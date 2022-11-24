@@ -1,7 +1,24 @@
-﻿
-@{
-    ViewData["Title"] = "Create";
-}
+﻿@model Livro
 
-<h1>Create</h1>
-
+<form method="post">
+    <div class="border p-3 mt-4">
+        <div class="row pb-2">
+              <h2 class="text-primary">adcionar Livro</h2>
+              <hr/>
+        </div>
+        <div class="mb-3">
+            <label asp-for="NomeLivro">Titulo</label>
+            <input asp-for="NomeLivro" class="form-control"/> 
+        </div>
+        <div class="mb-3">
+            <label asp-for="Sinopse">endereço</label>
+            <input asp-for="Sinopse" class="form-control"/>
+        </div>
+        <div class="mb-3">
+            <label asp-for="qtd_paginas"> Numero de paginas</label>
+            <input asp-for="qtd_paginas" class="form-check"/>
+        </div>
+        <button type="submit" class="btn btn-primary">Adcionar</button>
+        <a asp-controller="Livro" asp-action="Index" class="btn btn-secondary"> voltar</a>
+    </div>
+</form>

@@ -18,8 +18,16 @@ namespace Bookworm.Controllers
         }
         public IActionResult Create()
         {
-            IEnumerable<Livro> objLivroList = _db.Livro;
-            return View(objLivroList);
+            return View();
         }
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public IActionResult Create(Livro livro)
+        {
+            _db.Livro.Add(livro);
+            _db.SaveChanges();
+            return RedirectToAction("Index");
+        }
+
     }
 }

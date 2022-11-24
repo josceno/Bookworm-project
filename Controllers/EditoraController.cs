@@ -18,9 +18,18 @@ namespace Bookworm.Controllers
             IEnumerable<Editora> objEditoraList = _db.Editora;
             return View(objEditoraList);
         }
+       
         public IActionResult Create()
         {
             return View();
+        }
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public IActionResult Create(Editora editora)
+        {
+            _db.Editora.Add(editora);
+            _db.SaveChanges();
+            return RedirectToAction("Index");
         }
     }
 }
