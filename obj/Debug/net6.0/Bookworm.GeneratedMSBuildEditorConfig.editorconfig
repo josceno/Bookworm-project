@@ -19,12 +19,28 @@ build_property._RazorSourceGeneratorDebug =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0b3JcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[E:/projetos de código/C\#/Bookworm/Views/Autor/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0b3JcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/projetos de código/C\#/Bookworm/Views/Autor/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0b3JcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [E:/projetos de código/C\#/Bookworm/Views/Autor/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0b3JcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [E:/projetos de código/C\#/Bookworm/Views/Cliente/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZVxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/projetos de código/C\#/Bookworm/Views/Cliente/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZVxEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/projetos de código/C\#/Bookworm/Views/Cliente/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZVxFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [E:/projetos de código/C\#/Bookworm/Views/Cliente/Index.cshtml]

@@ -1,42 +1,35 @@
 ﻿@model Cliente
 
-<form method="post">
+<form method="post" asp-action="Delete">
     <div class="border p-3 mt-4">
+     <input asp-for="cpf" hidden />
         <div class="row pb-2">
               <h2 class="text-primary">adcionar Cliente</h2>
               <hr/>
         </div>
-        <div asp-validation-summary="All"></div>
-        <div class="mb-3">
-            <label asp-for="cpf">cpf</label>
-            <input asp-for="cpf" class="form-control"/> 
-            <span asp-validation-for="cpf" class="text-danger"></span>
-        </div>
-     
+        @*<div asp-validation-summary="All"></div>*@
         <div class="mb-3">
             <label asp-for="NomeCliente">Nome</label>
-            <input asp-for="NomeCliente" class="form-control"/>
-            <span asp-validation-for="NomeCliente" class="text-danger"></span>
+            <input asp-for="NomeCliente" disabled class="form-control"/>
         </div>
         <div class="mb-3">
             <label asp-for="edereco">edereço</label>
-            <input asp-for="edereco" class="form-control"/>
-            <span asp-validation-for="edereco" class="text-danger"></span>
+            <input asp-for="edereco" disabled class="form-control"/>
         </div>
             <div class="mb-3">
             <label asp-for="idade">idade</label>
-            <input asp-for="idade" class="form-control"/>
-            <span asp-validation-for="edereco" class="text-danger"></span>
+            <input asp-for="idade" disabled class="form-control"/>
+
         </div>
             <div class="mb-3">
-                <select asp-for="genero">
+                <select asp-for="genero" disabled class="form-control" >
                      <option>Masculino</option>
                      <option>Feminino</option>
                      <option>Prefiro não informar</option>
                 </select>
-                <span asp-validation-for="NomeCliente" class="text-danger"></span>
+
             </div>
-        <button type="submit" class="btn btn-primary">Adcionar</button>
+        <button type="submit" class="btn btn-primary">Excluir</button>
         <a asp-controller="Cliente" asp-action="Index" class="btn btn-secondary"> voltar</a>
     </div>
 </form>

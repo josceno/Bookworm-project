@@ -34,6 +34,16 @@
                       <td width="50%">
                     @obj.LocalNascimento
                       </td>
+                          <td>
+                          <div class="w-75 btn-group" role="group">
+                                <a asp-controller="Autor" asp-action="Edit" asp-route-id="@obj.Id_Autor"><i class="bi bi-pencil-square"></i>Editar</a>
+                          </div>
+                      </td>
+                          <td>
+                              <div class="w-75 btn-group" role="group">
+                                    <a asp-controller="Autor" asp-action="Delete" asp-route-id="@obj.Id_Autor"><i class="bi bi-pencil-square"></i>Excluir</a>
+                              </div>
+                          </td>
                 </tr>
         }
     </tbody>

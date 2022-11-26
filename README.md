@@ -5,9 +5,7 @@ O que foi feito:
 * ligação com banco de dados (SSMS)
 * Criação dos controladores dos modelos sem chave entrangeira
 * Criação do metedo GET dos modelos já citados 
-Em Progresso
-
-* 26/11 criação dos mnetodos delete e update nos já existente modelos
+* Criação dos metodos delete e update nos já existente modelos
 
 Pendencias e planejamento:
 * 27/11 adição dos modelos que exigem chave estrageira 

@@ -1,0 +1,28 @@
+﻿@model Autor
+
+<form method="post" asp-action="Delete">
+    <input asp-for="Id_Autor" hidden />
+    <div class="border p-3 mt-4">
+        <div class="row pb-2">
+              <h2 class="text-primary">Editar Autor</h2>
+              <hr/>
+        </div>
+        @*@<div asp-validation-summary="All"></div>*@
+        <div class="mb-3">
+            <label asp-for="nameAutor">Nome do Autor</label>
+            <input asp-for="nameAutor" disabled class="form-control"/> 
+        </div>
+        <div class="mb-3">
+            <label asp-for="LocalNascimento">Local do Nascimento</label>
+            <input asp-for="LocalNascimento" disabled class="form-control"/>
+        </div>
+        <button type="submit" class="btn btn-danger">excluir</button>
+        <a asp-controller="Autor" asp-action="Index" class="btn btn-secondary"> voltar</a>
+    </div>
+</form>
+@section Scripts{
+    @{
+        <partial name="_ValidationScriptsPartial"/>
+    }      
+}
+
