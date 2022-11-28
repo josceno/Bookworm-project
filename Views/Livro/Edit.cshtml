@@ -1,0 +1,35 @@
+﻿@model Livro
+
+<form method="post" asp-action="Edit">
+    <input asp-for="id_livro" hidden />
+    <input asp-for="idEditora" hidden />
+    <div class="border p-3 mt-4">
+        <div class="row pb-2">
+              <h2 class="text-primary">Editar Livro</h2>
+              <hr/>
+        </div>
+        @*@<div asp-validation-summary="All"></div>*@
+        <div class="mb-3">
+            <label asp-for="NomeLivro">Nome Livro</label>
+            <input asp-for="NomeLivro" class="form-control"/> 
+            <span asp-validation-for="NomeLivro" class="text-danger"></span>
+        </div>
+        <div class="mb-3">
+            <label asp-for="Sinopse">endereço</label>
+            <input asp-for="Sinopse" class="form-control"/>
+            <span asp-validation-for="Sinopse" class="text-danger"></span>
+        </div>
+         <div class="mb-3">
+            <label asp-for="qtd_paginas">qtd paginas</label>
+            <input asp-for="qtd_paginas" class="form-control"/>
+            <span asp-validation-for="qtd_paginas" class="text-danger"></span>
+        </div>
+        <button type="submit" class="btn btn-primary">Alterar</button>
+        <a asp-controller="Livro" asp-action="Index" class="btn btn-secondary"> voltar</a>
+    </div>
+</form>
+@section Scripts{
+    @{
+        <partial name="_ValidationScriptsPartial"/>
+    }      
+    }

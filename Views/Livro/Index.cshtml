@@ -27,6 +27,9 @@
             <th>
                 paginas
             </th>
+            <th>
+                cod editora
+            </th>         
         </tr>
     </thead>
     <tbody>
@@ -40,7 +43,25 @@
                 </td>
                 <td width="20%">
                     @obj.qtd_paginas
+                </td>       
+                <td>
+                    @obj.idEditora
                 </td>
+                    <td>
+                          <div class="w-75 btn-group" role="group">
+                                <a asp-controller="Livro" asp-action="Edit" asp-route-id="@obj.id_livro"><i class="bi bi-pencil-square"></i>Editar</a>
+                          </div>
+                      </td>
+                            <td>
+                              <div class="w-75 btn-group" role="group">
+                                    <a asp-controller="Livro" asp-action="Editor" asp-route-id="@obj.idEditora"><i class="bi bi-pencil-square"></i>Editora</a>
+                              </div>
+                          </td>
+                           <td>
+                           <div class="w-75 btn-group" role="group">
+                            <a asp-controller="Livro" asp-action="Delete" asp-route-id="@obj.id_livro"><i class="bi bi-pencil-square"></i>Excluir</a>
+                           </div>
+                      </td> 
             </tr>
         }
     </tbody>

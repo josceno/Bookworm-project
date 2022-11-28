@@ -47,6 +47,9 @@
                         <a asp-controller="Editora" asp-action="Delete" asp-route-id="@obj.IdEditora"><i class="bi bi-pencil-square"></i>Excluir</a>
                           </div>
                   </td>
+                  <td>
+                          <a asp-action="Details" asp-route-id="@obj.IdEditora">Details</a> 
+                  </td>
             </tr>
         }
     </tbody>

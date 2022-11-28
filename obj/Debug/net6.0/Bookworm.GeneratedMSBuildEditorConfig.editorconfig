@@ -47,12 +47,36 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[E:/projetos de código/C\#/Bookworm/Views/EditorasTemp/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRWRpdG9yYXNUZW1wXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/projetos de código/C\#/Bookworm/Views/EditorasTemp/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRWRpdG9yYXNUZW1wXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/projetos de código/C\#/Bookworm/Views/EditorasTemp/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRWRpdG9yYXNUZW1wXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/projetos de código/C\#/Bookworm/Views/EditorasTemp/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRWRpdG9yYXNUZW1wXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/projetos de código/C\#/Bookworm/Views/EditorasTemp/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRWRpdG9yYXNUZW1wXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [E:/projetos de código/C\#/Bookworm/Views/Editora/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRWRpdG9yYVxDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [E:/projetos de código/C\#/Bookworm/Views/Editora/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRWRpdG9yYVxEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/projetos de código/C\#/Bookworm/Views/Editora/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRWRpdG9yYVxEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [E:/projetos de código/C\#/Bookworm/Views/Editora/Edit.cshtml]
@@ -73,6 +97,18 @@ build_metadata.AdditionalFiles.CssScope =
 
 [E:/projetos de código/C\#/Bookworm/Views/Livro/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGl2cm9cQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/projetos de código/C\#/Bookworm/Views/Livro/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGl2cm9cRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/projetos de código/C\#/Bookworm/Views/Livro/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGl2cm9cRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/projetos de código/C\#/Bookworm/Views/Livro/Editor.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGl2cm9cRWRpdG9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [E:/projetos de código/C\#/Bookworm/Views/Livro/Index.cshtml]

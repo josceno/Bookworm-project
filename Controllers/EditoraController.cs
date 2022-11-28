@@ -105,6 +105,22 @@ namespace Bookworm.Controllers
            _db.SaveChanges();
            return RedirectToAction("Index");
         }
+        public async Task<IActionResult> Details(int? id)
+        {
+            if (id == null || _db.Editora == null)
+            {
+                return NotFound();
+            }
+
+            var editora = await _db.Editora
+                .FirstOrDefaultAsync(m => m.IdEditora == id);
+            if (editora == null)
+            {
+                return NotFound();
+            }
+
+            return View(editora);
+        }
 
     }
 }
