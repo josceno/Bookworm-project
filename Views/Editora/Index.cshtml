@@ -17,6 +17,9 @@
     <thead>
         <tr>
             <th>
+                id
+            </th>
+            <th>
                 Nome fantasia
             </th>
             <th>
@@ -29,6 +32,9 @@
         @foreach (var obj in Model)
         {
             <tr>
+                <td>
+                 @obj.IdEditora
+                </td>
                  <td width="50%">
                   @obj.Nomefantasia
                  </td>

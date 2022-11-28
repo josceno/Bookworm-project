@@ -28,7 +28,7 @@
                 paginas
             </th>
             <th>
-                cod editora
+                editora
             </th>         
         </tr>
     </thead>
@@ -45,18 +45,18 @@
                     @obj.qtd_paginas
                 </td>       
                 <td>
-                    @obj.idEditora
+                    <a asp-controller="Livro" asp-action="Editor" asp-route-id="@obj.idEditora"><i class="bi bi-pencil-square"></i>@obj.idEditora</a>
                 </td>
                     <td>
                           <div class="w-75 btn-group" role="group">
                                 <a asp-controller="Livro" asp-action="Edit" asp-route-id="@obj.id_livro"><i class="bi bi-pencil-square"></i>Editar</a>
                           </div>
                       </td>
-                            <td>
+                            @*<td>
                               <div class="w-75 btn-group" role="group">
-                                    <a asp-controller="Livro" asp-action="Editor" asp-route-id="@obj.idEditora"><i class="bi bi-pencil-square"></i>Editora</a>
+                                    <a asp-controller="Livro" asp-action="Editor" asp-route-id="@obj.idEditora"><i class="bi bi-pencil-square"></i>Editar</a>
                               </div>
-                          </td>
+                          </td>*@
                            <td>
                            <div class="w-75 btn-group" role="group">
                             <a asp-controller="Livro" asp-action="Delete" asp-route-id="@obj.id_livro"><i class="bi bi-pencil-square"></i>Excluir</a>
